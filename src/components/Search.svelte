@@ -21,5 +21,5 @@
 <form>
   <input type="text" bind:value={search} />
 
-  <button type="submit" on:click={submit}>Search</button>
+  <button type="submit" on:click|preventDefault={submit}>Search</button>
 </form>
